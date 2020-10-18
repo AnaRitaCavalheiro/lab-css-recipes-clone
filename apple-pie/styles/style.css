@@ -16,37 +16,55 @@ body {
   }
 section {
     border-bottom-style: underline;
-    padding: 20%, 0, 20%, 0;
+    padding: 20%, 0, 20%, 20%;
     display: flex;
     flex-direction: column;
+
+}
+
+hr.rounded {
+    color: black transparent;
+    border-radius: 5px;
+    width: 650px;;
+    
+  }
+
+  p {
+    font-size: 17px;  
+  }
+
+.recipe-info {
+    height: 30px ;
+    width: 70px;
     justify-content: center;
     align-items: center;
     
 }
 
-  p {
-    font-size: 18px;  
-  }
-
-.recipe-info {
-    height: 50px ;
-    
-}
-
 h1{
-    font-size: 20px;  
+    font-size: 30px; 
+    justify-content: center;
+    align-items: left; 
 }
 
 ul {
     list-style: "-" ;
 }
-
+ul> li {
+    justify-content: center;
+    align-items: left; 
+}
 .cooking-info {
-    height: 70px;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
  
 ol> li {
     list-style: none;
+    justify-content: center;
+    align-items: left; 
 }
 ol > li:before {
     content: counter(list) ")" ;
